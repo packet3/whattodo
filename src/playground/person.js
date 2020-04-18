@@ -1,0 +1,7 @@
+const isAdult = (age) => age >=28;
+const canDrink = (age) => age >= 21;
+const isSenior = (age) => age >= 65;
+
+//export default isSenior;
+
+export {isAdult, canDrink, isSenior as default};
